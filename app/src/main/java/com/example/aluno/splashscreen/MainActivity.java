@@ -9,10 +9,11 @@ import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
-
+public abstract class MainActivity extends AppCompatActivity {
+    public class aluno extends dadosPessoais{}
+    dadosPessoais aluno = new dadosPessoais;
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
