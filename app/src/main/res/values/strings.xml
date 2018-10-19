@@ -1,4 +1,12 @@
 <resources>
-    <string name="app_name">SplashScreen</string>
-    <string name="IdadeString">Idade</string>
+    <string name="app_name">Cadastro</string>
+    <string name="IdadeString">Idade:</string>
+    <string name="Nome">Nome:</string>
+    <string name="Sexo">Sexo:</string>
+    <string name="Curso">Curso:</string>
+    <string name="Ingles">Ingles</string>
+    <string name="Design">Design</string>
+    <string name="Cadastrar" >Cadastrar</string>
+    <string name="TelaResposta">Tela Resposta:</string>
+    <string name="Vazio" />
 </resources>

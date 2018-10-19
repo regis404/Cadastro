@@ -15,12 +15,13 @@
             android:layout_height="match_parent" >
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/nomeId"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Nome:" />
+                android:text="@string/Nome" />
 
             <EditText
+                android:id="@+id/campoNomeId"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -33,15 +34,15 @@
             android:layout_height="match_parent" >
 
             <TextView
-                android:id="@+id/textView6"
+                android:id="@+id/idadeId"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Idade:"
+                android:text="@string/IdadeString"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="58dp" />
 
             <EditText
-                android:id="@+id/editText2"
+                android:id="@+id/campoIdadeId"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -53,13 +54,13 @@
             android:layout_height="match_parent" >
 
             <TextView
-                android:id="@+id/textView7"
+                android:id="@+id/sexoId"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Sexo:" />
+                android:text="@string/Sexo" />
 
             <Spinner
-                android:id="@+id/spinner"
+                android:id="@+id/spnSexoId"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
         </TableRow>
@@ -69,16 +70,16 @@
             android:layout_height="match_parent" >
 
             <TextView
-                android:id="@+id/textView8"
+                android:id="@+id/cursoId"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Cursos:" />
+                android:text="@string/Curso" />
 
             <CheckBox
-                android:id="@+id/checkBox"
+                android:id="@+id/chkInglesId"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Ingles" />
+                android:text="@string/Ingles" />
         </TableRow>
 
         <TableRow
@@ -90,27 +91,32 @@
                 android:layout_height="wrap_content" />
 
             <CheckBox
-                android:id="@+id/checkBox2"
+                android:id="@+id/chkDesignId"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Design" />
+                android:text="@string/Design" />
         </TableRow>
 
     </TableLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal"
+        android:layout_height="438dp"
+        android:orientation="vertical"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="217dp">
+        tools:layout_editor_absoluteY="176dp">
 
         <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             app:srcCompat="@mipmap/ic_launcher" />
+
+        <Button
+            android:id="@+id/cadastrarId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Cadastrar" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
